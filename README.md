@@ -1,5 +1,7 @@
 # externalip
 
+[![Build Status](https://travis-ci.org/alsotang/externalip.svg?branch=master)](https://travis-ci.org/alsotang/externalip)
+
 get your external ip in Node.js
 
 ## install
