@@ -1,0 +1,21 @@
+{
+  "name": "externalip",
+  "version": "0.0.1",
+  "description": "get your external ip base on `curlmyip.com`",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "author": "alsotang <alsotang@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "superagent": "^0.18.1"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "devDependencies": {
+    "mocha": "^1.20.1",
+    "should": "^4.0.4"
+  }
+}
