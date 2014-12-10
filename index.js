@@ -7,7 +7,7 @@ var getip = function (callback) {
       if (err) {
         return callback(err);
       }
-      var ip = res.text;
+      var ip = res.text.trim();
       callback(null, ip);
     });
 };
