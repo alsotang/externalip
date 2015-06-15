@@ -1,5 +1,7 @@
 # externalip
 
+## !!!ATTENTION
+
 **THIS PACKAGE IS DEPRECATED. PLEASE USE: https://github.com/sindresorhus/public-ip**
 
 [![Build Status](https://travis-ci.org/alsotang/externalip.svg?branch=master)](https://travis-ci.org/alsotang/externalip)
