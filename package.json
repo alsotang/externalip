@@ -1,6 +1,6 @@
 {
   "name": "externalip",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "get your external ip base on `curlmyip.com`",
   "main": "index.js",
   "scripts": {
