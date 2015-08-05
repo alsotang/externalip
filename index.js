@@ -2,13 +2,12 @@ var superagent = require('superagent');
 
 var getip = function (callback) {
   superagent
-    .get('http://ip.cn/')
-    .set('User-Agent', 'curl/7.37.1')
+    .get('https://diagnostic.opendns.com/myip')
     .end(function (err, res) {
       if (err) {
         return callback(err);
       }
-      var ip = res.text.match(/\d+\.\d+\.\d+\.\d+/)[0];
+      var ip = res.text.trim();
       callback(null, ip);
     });
 };
