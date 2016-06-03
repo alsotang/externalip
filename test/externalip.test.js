@@ -6,7 +6,7 @@ describe('externalip.test.js', function () {
   it('should return external ip', function (done) {
     externalip(function (err, ip) {
       console.log('your ip', ip)
-      ip.should.match(/^\d+.\d+.\d+.\d+$/);
+      ip.should.match(/^\d+\.\d+\.\d+\.\d+$/);
       done(err);
     });
   });
