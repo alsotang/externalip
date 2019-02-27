@@ -9,10 +9,7 @@
   "author": "alsotang <alsotang@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "superagent": "^0.18.1"
-  },
-  "engines": {
-    "node": "0.10.x"
+    "superagent": "^4.1.0"
   },
   "devDependencies": {
     "mocha": "^1.20.1",
